@@ -1,0 +1,54 @@
+.lesson {
+  padding-top: 28px;
+  padding-bottom: 8px;
+}
+
+.lesson h2 {
+  font: 700 clamp(24px, 4vw, 32px) / 1.15 var(--f-display);
+  margin: 0 0 6px;
+  text-wrap: balance;
+}
+
+.lesson__time {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 18px;
+}
+
+.lead {
+  font-size: 18px;
+  max-width: 62ch;
+  margin: 0 0 8px;
+}
+
+.lesson h3 {
+  font: 650 21px/1.25 var(--f-display);
+  margin: 44px 0 10px;
+  text-wrap: balance;
+}
+
+.lesson h3 .tag {
+  font: 600 11px/1 var(--f-body);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.lesson-sources {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.lesson-sources ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+
+.lesson code {
+  overflow-wrap: anywhere;
+}

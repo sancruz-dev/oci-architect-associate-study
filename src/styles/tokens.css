@@ -1,0 +1,71 @@
+/* Tokens de design. Todo componente usa estas variáveis, nunca cores literais. */
+:root {
+  --bg: #F2F4F6;
+  --surface: #FFFFFF;
+  --fg: #16202A;
+  --muted: #55667A;
+  --line: #D3DBE3;
+  --accent: #B83A28;
+  --accent-soft: #F7E5E1;
+  --accent-ink: #FFFFFF;
+  --blue: #1F5F8B;
+  --blue-soft: #E3EDF4;
+  --ok: #1E7A4F;
+  --ok-soft: #E1F2E9;
+  --warn: #8A5F00;
+  --warn-soft: #FBF0D4;
+  --code-bg: #16202A;
+  --code-fg: #F2F4F6;
+  --code-kw: #F0A090;
+
+  --f-display: 'Bricolage Grotesque', 'IBM Plex Sans', system-ui, sans-serif;
+  --f-body: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --f-mono: 'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace;
+
+  --header-h: 56px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0F161D;
+    --surface: #17212B;
+    --fg: #E6ECF1;
+    --muted: #93A3B3;
+    --line: #2A3946;
+    --accent: #F0725E;
+    --accent-soft: #3A1B16;
+    --accent-ink: #1A0B08;
+    --blue: #7DB6DE;
+    --blue-soft: #14293A;
+    --ok: #5FC995;
+    --ok-soft: #12301F;
+    --warn: #E0B550;
+    --warn-soft: #34290C;
+    --code-bg: #0A1016;
+    --code-fg: #E6ECF1;
+    --code-kw: #F0725E;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #0F161D;
+  --surface: #17212B;
+  --fg: #E6ECF1;
+  --muted: #93A3B3;
+  --line: #2A3946;
+  --accent: #F0725E;
+  --accent-soft: #3A1B16;
+  --accent-ink: #1A0B08;
+  --blue: #7DB6DE;
+  --blue-soft: #14293A;
+  --ok: #5FC995;
+  --ok-soft: #12301F;
+  --warn: #E0B550;
+  --warn-soft: #34290C;
+  --code-bg: #0A1016;
+  --code-fg: #E6ECF1;
+  --code-kw: #F0725E;
+  color-scheme: dark;
+}
